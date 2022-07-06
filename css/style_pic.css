@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mitr', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    background: linear-gradient(135deg, #ed4264, #ffedbc);
+}
+
+.user {
+    position: absolute;
+    height: 20%;
+    width: 22%;
+    background: rgb(255, 255, 255);
+    padding: 25px 30px;
+    top: 16px;
+    right: 1.4%;
+    border-radius: 5px;
+    align-content: flex-end;
+}
+
+.container {
+    max-width: 2560px;
+    height: 100%;
+    width: 50%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.container .title {
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.container .title1 {
+    font-size: 20px;
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button-right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 4%;
+    padding: 10px;
+}
+
+button {
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    width: 15%;
+    height: 50px;
+}
+
+.button-right .reset {
+    background-color: #b01212;
+}
+
+.edit {
+    width: 40%;
+    height: 35;
+}
+
+.logout {
+    width: 40%;
+    height: 35;
+    background-color: #b01212;
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group input {
+    height: 30px;
+    width: 100%;
+}
+
+.alert-1{
+    display: flex;
+    align-items: center;
+    color: rgb(142, 12, 12);
+    background-color: #ea9292;
+    height: 40px;
+    width: 100%;
+}
+
+.alert-1 p {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.alert-2{
+    display: flex;
+    align-items: center;
+    color: rgb(12, 142, 62);
+    background-color: #95ea92;
+    height: 40px;
+    width: 100%;
+}
+
+.alert-2 p {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.alert-link {
+    color: rgb(12, 142, 62);
+    font-weight: bold;
+}
+
+  /* Create four equal columns that sits next to each other */
+form .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    padding-bottom: 20%;
+    overflow: auto;
+    align-items: center;
+}
+
+.column img {
+    margin-top: 50%;
+    margin-right: 10px;
+    align-items: center;
+    width: 100%;
+    height: 300%;
+    align-items: center;
+}
+

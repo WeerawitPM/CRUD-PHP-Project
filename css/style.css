@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mitr', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    background: linear-gradient(135deg, #ed4264, #ffedbc);
+}
+
+.container {
+    max-width: 2560px;
+    height: 100%;
+    width: 50%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.container .title {
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.container .title1 {
+    font-size: 20px;
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box {
+    width: calc(100% / 2 - 10px);
+}
+
+.user-details .input-box .details {
+    font-weight: 500;
+}
+
+.user-details .input-box input {
+    height: 30px;
+    width: 100%;
+}
+
+.suffix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.suffix2 {
+    position: relative;
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 100%;
+    background-color: #c3c3c3;
+}
+
+textarea {
+    resize: none;
+    width: 204%;
+}
+
+.split2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 100%;
+}
+
+.split3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+}
+
+.split3 .input-box {
+    align-items: center;
+    width: 200%;
+}
+
+.split3 .input-box input {
+    height: 30px;
+    width: 100%;
+}
+
+.t1 {
+    display: flex;
+    padding-right: 10px;
+}
+
+.t2 {
+    display: flex;
+    padding-right: 10px;
+}
+
+.t3 {
+    display: flex;
+    padding-right: 10px;
+}
+
+.button-right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 4%;
+    padding: 10px;
+}
+
+button {
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    width: 15%;
+    height: 50px;
+}
+
+.button-right .reset {
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #b01212;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    width: 15%;
+    height: 50px;
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.table table {
+    align-items: center;
+    width: 200%;
+}
+
+.table table tr {
+    align-items: center;
+    width: 200%;
+    padding-left: 10px;
+}
+
+.table table tr td {
+    align-items: center;
+}
+
+.table table tr input {
+    align-items: center;
+    width: 95%;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group input {
+    height: 30px;
+    width: 100%;
+}
+
+select {
+    width: 100%;
+    height: 30px;
+}
+
+.alert-1{
+    display: flex;
+    align-items: center;
+    color: rgb(142, 12, 12);
+    background-color: #ea9292;
+    height: 40px;
+    width: 100%;
+}
+
+.alert-1 p {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.alert-2{
+    display: flex;
+    align-items: center;
+    color: rgb(12, 142, 62);
+    background-color: #95ea92;
+    height: 40px;
+    width: 100%;
+}
+
+.alert-2 p {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.alert-link {
+    color: rgb(12, 142, 62);
+    font-weight: bold;
+}
+
+  /* Create four equal columns that sits next to each other */
+form .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    padding-bottom: 20%;
+    overflow: auto;
+    align-items: center;
+}
+
+.column img {
+    margin-top: 50%;
+    margin-right: 10px;
+    align-items: center;
+    width: 100%;
+    height: 300%;
+    align-items: center;
+}
+
